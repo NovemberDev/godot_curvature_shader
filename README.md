@@ -12,9 +12,9 @@ Here is a list of steps to work with the shader:
 2. Assign a new ShaderMaterial, assign the "curvature_shader.shader"-File to the shader slot
 3. Click the shader and set the shader parameters to these values:
 
-CURVATURE (default: 5.0) - This property modifies the steepness of the falloff effect
-CURVATURE_ACTIVE (default: true) - Tells the shader to activate curvature
-CURVATURE_DISTANCE (default: 25.0) - The distance to start the curvature from the camera's position
+* CURVATURE (default: 5.0) - This property modifies the steepness of the falloff effect
+* CURVATURE_ACTIVE (default: true) - Tells the shader to activate curvature
+* CURVATURE_DISTANCE (default: 25.0) - The distance to start the curvature from the camera's position
 
 BASE_TEX (Texture for mesh)
 
