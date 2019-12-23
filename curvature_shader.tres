@@ -10,6 +10,9 @@ CURVATURE_ACTIVE (default: true)
 CURVATURE_DISTANCE (default: 25.0)
 
 BASE_TEX (Texture for mesh)
+
+CAVEATS: This shader does not provide shadow mapping.
+
 */
 
 shader_type spatial;
