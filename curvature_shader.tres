@@ -1,8 +1,16 @@
 /*
-Adds curvature to any mesh.
 Author: @November_Dev
-*/
+Adds curvature to any mesh.
 
+Assign this shader to a shadermaterial and set the shader parameters to following values:
+
+Parameters:
+CURVATURE (default: 5.0)
+CURVATURE_ACTIVE (default: true)
+CURVATURE_DISTANCE (default: 25.0)
+
+BASE_TEX (Texture for mesh)
+*/
 
 shader_type spatial;
 render_mode world_vertex_coords, depth_draw_alpha_prepass, cull_disabled, vertex_lighting;
